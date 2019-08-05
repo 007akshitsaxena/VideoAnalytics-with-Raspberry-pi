@@ -1,0 +1,1 @@
+Make a sub-directory here and place your image inside it . 
