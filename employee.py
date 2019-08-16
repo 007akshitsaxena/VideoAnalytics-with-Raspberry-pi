@@ -3,17 +3,11 @@ import cv2
 import os
 import os.path
 from face_recognition.face_recognition_cli import image_files_in_folder
-from flask import Flask , request, jsonify, render_template , send_file
-import mysql.connector
-import datetime
-import json
+from flask import Flask , request, render_template , send_file
 from pandas import DataFrame , ExcelWriter
 from collections import OrderedDict
 import numpy as np
 app=Flask(__name__)
-
-
-
 
 
 
